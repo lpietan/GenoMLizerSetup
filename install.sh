@@ -12,5 +12,3 @@ then
 else
     echo "bcftools is installed."
 fi
-
-echo "Installation of GenoMLizer and all dependancies complete."
