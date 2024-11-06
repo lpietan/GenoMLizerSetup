@@ -2,7 +2,7 @@
 
 Rscript install.R
 
-pip install git+https://github.com/lpietan/GenoMLizer.git
+pip install --user git+https://github.com/lpietan/GenoMLizer.git
 
 echo "Checking for bcftools dependency..."
 if ! command -v bcftools &> /dev/null
